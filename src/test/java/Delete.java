@@ -2,7 +2,7 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.given;
 
-public class DeleteMethodTest {
+public class Delete {
     @Test
     public void deleteMethodTest() {
         String path = "https://postman-echo.com/delete";
